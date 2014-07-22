@@ -1,0 +1,25 @@
+{
+  "name": "angular-point-ie-safe",
+  "version": "0.0.1",
+  "homepage": "https://github.com/scatcher/angular-point-ie-safe",
+  "authors": [
+    "Scott <github@scotthatcher.com>"
+  ],
+  "distPath": "dist",
+  "description": "Collection of polyfills and shims to allow IE 8 & 9 to work with angular-point.",
+  "license": "MIT",
+  "main": "./dist/angular-point-ie-safe.min.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "respond": "latest",
+    "es5-shim": "~2.3.0",
+    "ExplorerCanvas": "latest",
+    "json3": "~3"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

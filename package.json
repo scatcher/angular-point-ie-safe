@@ -1,0 +1,55 @@
+{
+  "name": "angular-point-ie-safe",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1",
+    "grunt": "^0.4.4",
+    "grunt-contrib-clean": "^0.5",
+    "grunt-contrib-concat": "^0.4",
+    "grunt-contrib-uglify": "^0.5",
+    "grunt-bump": "^0.0.14",
+    "grunt-newer": "^0.7",
+    "grunt-rev": "^0.1",
+    "grunt-usemin": "^2",
+    "load-grunt-tasks": "^0.6",
+    "lodash": "^2.4.1",
+    "time-grunt": "^0.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scatcher/angular-point-ie-safe.git"
+  },
+  "jshintConfig": {
+    "node": true,
+    "browser": true,
+    "esnext": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "indent": 2,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "quotmark": "single",
+    "regexp": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "smarttabs": true,
+    "globals": {
+      "angular": false,
+      "_": false,
+      "moment": false,
+      "$": false,
+      "jQuery": false
+    }
+  }
+
+}
